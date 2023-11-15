@@ -12,7 +12,7 @@ const spotifySecret = process.env.SPOTIFY_CLIENT_SECRET;
 const spotifyClient = process.env.SPOTIFY_CLIENT;
 const base = new Airtable({apiKey: airtableToken}).base(airtableTableId);
 const playlistId = process.env.PLAYLIST_ID;
-const timeSpacing = 1000 * 60 * 4 * 10000;
+const timeSpacing = 1000 * 60 * 4;
 let playlistTotal = 0;
 let lastList = [];
 let spotifyToken;
