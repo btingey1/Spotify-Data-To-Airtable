@@ -4,13 +4,13 @@ Takes supplied Spotify playlist and extracts various pieces of data related to e
 
 To setup, create a .env file with the following variables:
 
-AIRTABLE_TOKEN
-AIRTABLE_TABLE_ID
-SPOTIFY_CLIENT_SECRET
-SPOTIFY_CLIENT
-PLAYLIST_ID
+AIRTABLE_TOKEN,
+AIRTABLE_TABLE_ID,
+SPOTIFY_CLIENT_SECRET,
+SPOTIFY_CLIENT,
+PLAYLIST_ID,
 
 Dependencies:
-cron
-dotenv
-airtable
+corn,
+dotenv,
+airtable,
