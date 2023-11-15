@@ -8,9 +8,9 @@ AIRTABLE_TOKEN,
 AIRTABLE_TABLE_ID,
 SPOTIFY_CLIENT_SECRET,
 SPOTIFY_CLIENT,
-PLAYLIST_ID,
+PLAYLIST_ID
 
 Dependencies:
 cron,
 dotenv,
-airtable,
+airtable
