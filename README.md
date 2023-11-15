@@ -11,6 +11,6 @@ SPOTIFY_CLIENT,
 PLAYLIST_ID,
 
 Dependencies:
-corn,
+cron,
 dotenv,
 airtable,
