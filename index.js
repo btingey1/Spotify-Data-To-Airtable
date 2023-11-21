@@ -49,9 +49,10 @@ const spotifyCheckPlaylist = async function () {
         const data = await result.json();
         const tracks = data.items;
 
-        // Vallidate our tracks to ensure they are new and that they were not previously entered
+        // Validate our tracks to ensure they are new and that they were not previously entered
         
         const newTracks = validateTracks(tracks, checkDate);
+        if (newTracks.length == 0) return
 
         // Collect feature information for each track
 
